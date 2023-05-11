@@ -10,7 +10,7 @@ const [show,setShow]=useState(false);
 const [ready, setReady]= useState(false);
 
   return (
-    <div>
+    <div className='sticky'>
       <div className="flex justify-between pt-5  h-28 md:shadow-md ">
         <div className="flex pl-16 cursor-pointer">
           <img src={logo} className="w-16" />
